@@ -1,895 +1,1062 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- 
+    <!-- 
     - primary meta tags
   -->
-  <title>Adex</title>
-  <meta name="title" content="Adex">
-  <meta name="description" content="This is a business agency html template made by codewithsadee">
+    <title>Table-tennis Website</title>
+    <meta name="title" content="BSTTA" />
+    <meta name="description" content="" />
 
-  <!-- 
+    <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
 
-  <!-- 
+    <!-- 
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- 
+    <!-- 
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-  <!-- 
+    <!-- 
     - preload images
   -->
-  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-bg.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg" />
+  </head>
 
-</head>
-
-<body>
-
-  <!-- 
+  <body>
+    <!-- 
     - #HEADER
   -->
 
-  <header class="header" data-header>
-    <div class="container">
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <!-- <img
+            src="./assets/images/logo-light.svg"
+            width="74"
+            height="24"
+            alt="BSTTA home"
+            class="logo-light"
+          /> -->
+          <h1 class="logo-light" style="color: white; font-weight: bolder">
+            LOGO
+          </h1>
 
-      <a href="#" class="logo">
-        <img src="./assets/images/logo-light.svg" width="74" height="24" alt="Adex home" class="logo-light">
+          <!-- <img
+            src="./assets/images/logo-dark.svg"
+            width="74"
+            height="24"
+            alt="tennis home"
+            class="logo-dark"
+          /> -->
+          <h1
+            class="logo-dark"
+            style="color: rgb(103, 77, 198); font-weight: bolder"
+          >
+            LOGO
+          </h1>
+        </a>
 
-        <img src="./assets/images/logo-dark.svg" width="74" height="24" alt="Adex home" class="logo-dark">
-      </a>
-
-      <nav class="navbar" data-navbar>
-
-        <div class="navbar-top">
-          <a href="#" class="logo">
-            <img src="./assets/images/logo-light.svg" width="74" height="24" alt="Adex home">
-          </a>
-
-          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
-            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-          </button>
-        </div>
-
-        <ul class="navbar-list">
-
-          <li>
-            <a href="#" class="navbar-link">Home</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">About</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">Projects</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">Blog</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">Contact</a>
-          </li>
-
-        </ul>
-
-        <div class="wrapper">
-          <a href="mailto:info@email.com" class="contact-link">info@email.com</a>
-
-          <a href="tel:001234567890" class="contact-link">00 (123) 456 78 90</a>
-        </div>
-
-        <ul class="social-list">
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <h1>LOGO</h1>
+              <!-- <img
+                src="./assets/images/logo-light.svg"
+                width="74"
+                height="24"
+                alt="table tennis home"
+              /> -->
             </a>
-          </li>
 
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
 
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-dribbble"></ion-icon>
-            </a>
-          </li>
+          <ul class="navbar-list">
+            <li>
+              <a href="#" class="navbar-link">Home</a>
+            </li>
 
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
+            <li>
+              <a href="#" class="navbar-link">About</a>
+            </li>
 
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-youtube"></ion-icon>
-            </a>
-          </li>
+            <li>
+              <a href="#" class="navbar-link">Team</a>
+            </li>
 
-        </ul>
+            <li>
+              <a href="#" class="navbar-link">News</a>
+            </li>
 
-      </nav>
+            <li>
+              <a href="#" class="navbar-link">Contact Us</a>
+            </li>
+          </ul>
 
-      <a href="#" class="btn btn-primary">Free Trial</a>
+          <div class="wrapper">
+            <a href="mailto:info@email.com" class="contact-link"
+              >email@email.com</a
+            >
 
-      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-      </button>
+            <a href="tel:000 0000 0000" class="contact-link"
+              >+234 0000 000 000</a
+            >
+          </div>
 
-      <div class="overlay" data-nav-toggler data-overlay></div>
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
 
-    </div>
-  </header>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
 
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-dribbble"></ion-icon>
+              </a>
+            </li>
 
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
 
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </nav>
 
+        <a href="#" class="btn btn-primary">Join Now</a>
 
-  <main>
-    <article>
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
 
-      <!-- 
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
         - #HERO
       -->
 
-      <section class="section hero has-bg-image" aria-label="home"
-        style="background-image: url('./assets/images/hero-bg.jpg')">
-        <div class="container">
+        <section
+          class="section hero has-bg-image"
+          aria-label="home"
+          style="background-image: url('./assets/images/hero-bg.jpg')"
+        >
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="h1 hero-title">
+                Bayelsa State Table Tennis Association &
+                <span style="color: blueviolet">Coastal Fortress Academy</span>
+              </h1>
 
-          <div class="hero-content">
+              <p class="hero-text">
+                BSTTA is the leading table tennis association in Bayelsa State.
+                We provide a platform for players to showcase their talent and
+                compete at the highest level.
+              </p>
 
-            <h1 class="h1 hero-title">Crafting project specific solutions with expertise.</h1>
+              <div class="btn-wrapper">
+                <a href="#" class="btn btn-primary">Explore Now</a>
 
-            <p class="hero-text">
-              We’re a creative company that focuses on establishing long-term relationships with customers.
-            </p>
-
-            <div class="btn-wrapper">
-
-              <a href="#" class="btn btn-primary">Explore Now</a>
-
-              <a href="#" class="btn btn-outline">Contact Us</a>
-
+                <a href="#" class="btn btn-outline">Contact Us</a>
+              </div>
             </div>
 
-          </div>
-
-          <div class="hero-slider" data-slider>
-
-            <div class="slider-inner">
-              <ul class="slider-container" data-slider-container>
-
-                <li class="slider-item">
-
-                  <figure class="img-holder" style="--width: 575; --height: 550;">
-                    <img src="./assets/images/hero-slide-1.jpg" width="575" height="550" alt="" class="img-cover">
-                  </figure>
-
-                </li>
-
-                <li class="slider-item">
-
-                  <div class="hero-card">
-                    <figure class="img-holder" style="--width: 575; --height: 550;">
-                      <img src="./assets/images/hero-slide-2.jpg" width="575" height="550" alt="hero banner"
-                        class="img-cover">
+            <div class="hero-slider" data-slider>
+              <div class="slider-inner">
+                <ul class="slider-container" data-slider-container>
+                  <li class="slider-item">
+                    <figure
+                      class="img-holder"
+                      style="--width: 575; --height: 550"
+                    >
+                      <img
+                        src="./assets/images/player-header1.jpg"
+                        width="575"
+                        height="550"
+                        alt=""
+                        class="img-cover"
+                      />
                     </figure>
+                  </li>
 
-                    <button class="play-btn" aria-label="play adex intro">
-                      <ion-icon name="play" aria-hidden="true"></ion-icon>
-                    </button>
-                  </div>
+                  <li class="slider-item">
+                    <div class="hero-card">
+                      <figure
+                        class="img-holder"
+                        style="--width: 575; --height: 550"
+                      >
+                        <img
+                          src="./assets/images/player-header2.jpg"
+                          width="575"
+                          height="550"
+                          alt="hero banner"
+                          class="img-cover"
+                        />
+                      </figure>
 
-                </li>
+                      <button class="play-btn" aria-label="play adex intro">
+                        <ion-icon name="play" aria-hidden="true"></ion-icon>
+                      </button>
+                    </div>
+                  </li>
 
-                <li class="slider-item">
+                  <li class="slider-item">
+                    <figure
+                      class="img-holder"
+                      style="--width: 575; --height: 550"
+                    >
+                      <img
+                        src="./assets/images/player-header3.jpg"
+                        width="575"
+                        height="550"
+                        alt=""
+                        class="img-cover"
+                      />
+                    </figure>
+                  </li>
+                </ul>
+              </div>
 
-                  <figure class="img-holder" style="--width: 575; --height: 550;">
-                    <img src="./assets/images/hero-slide-3.jpg" width="575" height="550" alt="" class="img-cover">
-                  </figure>
+              <button
+                class="slider-btn prev"
+                aria-label="slide to previous"
+                data-slider-prev
+              >
+                <ion-icon name="arrow-back"></ion-icon>
+              </button>
 
-                </li>
-
-              </ul>
+              <button
+                class="slider-btn next"
+                aria-label="slide to next"
+                data-slider-next
+              >
+                <ion-icon name="arrow-forward"></ion-icon>
+              </button>
             </div>
-
-            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
-              <ion-icon name="arrow-back"></ion-icon>
-            </button>
-
-            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
-              <ion-icon name="arrow-forward"></ion-icon>
-            </button>
-
           </div>
+        </section>
 
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
+        <!-- 
         - #SERVICE
       -->
 
-      <section class="section service" aria-labelledby="service-label">
-        <div class="container">
+        <section
+          class="section service fade-in"
+          aria-labelledby="service-label"
+        >
+          <section class="section service" aria-labelledby="service-label">
+            <div class="container">
+              <p class="section-subtitle" id="service-label">What We Do?</p>
 
-          <p class="section-subtitle" id="service-label">What We Do?</p>
+              <h2 class="h2 section-title">
+                The service we offer is specifically designed to meet your
+                needs.
+              </h2>
 
-          <h2 class="h2 section-title">
-            The service we offer is specifically designed to meet your needs.
-          </h2>
+              <ul class="grid-list">
+                <li>
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon
+                        name="call-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </div>
 
-          <ul class="grid-list">
+                    <h3 class="h4 card-title">24/7 Support</h3>
 
-            <li>
-              <div class="service-card">
+                    <p class="card-text">
+                      Nulla vitae elit libero, a pharetra augue. Donec id elit
+                      non mi porta gravida at eget metus cras justo.
+                    </p>
 
-                <div class="card-icon">
-                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
-                </div>
+                    <a href="#" class="btn-text">
+                      <span class="span">Learn More</span>
 
-                <h3 class="h4 card-title">24/7 Support</h3>
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </li>
 
-                <p class="card-text">
-                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
-                  justo.
-                </p>
+                <li>
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon
+                        name="book-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </div>
 
-                <a href="#" class="btn-text">
-                  <span class="span">Learn More</span>
+                    <h3 class="h4 card-title">Coastal Fortress Academy</h3>
 
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
+                    <p class="card-text">
+                      Nulla vitae elit libero, a pharetra augue. Donec id elit
+                      non cras justo.
+                    </p>
 
-              </div>
-            </li>
+                    <a href="#" class="btn-text">
+                      <span class="span">Learn More</span>
 
-            <li>
-              <div class="service-card">
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </li>
 
-                <div class="card-icon">
-                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
-                </div>
+                <li>
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon
+                        name="trophy-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </div>
 
-                <h3 class="h4 card-title">Secure Payments</h3>
+                    <h3 class="h4 card-title">Table tennis Competitions</h3>
 
-                <p class="card-text">
-                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
-                  justo.
-                </p>
+                    <p class="card-text">
+                      Nulla vitae elit libero, a pharetra augue. Donec id elit
+                      non mi metus cras justo.
+                    </p>
 
-                <a href="#" class="btn-text">
-                  <span class="span">Learn More</span>
+                    <a href="#" class="btn-text">
+                      <span class="span">Learn More</span>
 
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </li>
 
-              </div>
-            </li>
+                <li>
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon
+                        name="bulb-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </div>
 
-            <li>
-              <div class="service-card">
+                    <h3 class="h4 card-title">24/7 Power Supply</h3>
 
-                <div class="card-icon">
-                  <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
-                </div>
+                    <p class="card-text">
+                      Nulla vitae elit libero, a pharetra augue. Donec id elit
+                      non mi porta gravida at eget metus cras justo.
+                    </p>
 
-                <h3 class="h4 card-title">Daily Updates</h3>
+                    <a href="#" class="btn-text">
+                      <span class="span">Learn More</span>
 
-                <p class="card-text">
-                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
-                  justo.
-                </p>
-
-                <a href="#" class="btn-text">
-                  <span class="span">Learn More</span>
-
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="service-card">
-
-                <div class="card-icon">
-                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
-                </div>
-
-                <h3 class="h4 card-title">Market Research</h3>
-
-                <p class="card-text">
-                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
-                  justo.
-                </p>
-
-                <a href="#" class="btn-text">
-                  <span class="span">Learn More</span>
-
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <!-- 
         - #ABOUT
       -->
+        <section
+          class="section service fade-in"
+          aria-labelledby="service-label"
+        >
+          <section class="about" aria-labelledby="about-label">
+            <div class="container">
+              <figure class="about-banner">
+                <img
+                  src="./assets/images/playing3.svg"
+                  width="800"
+                  height="580"
+                  loading="lazy"
+                  alt="about banner"
+                  class="w-100"
+                />
+              </figure>
 
-      <section class="about" aria-labelledby="about-label">
-        <div class="container">
+              <div class="about-content">
+                <p class="section-subtitle" id="about-label">Why Choose Us?</p>
 
-          <figure class="about-banner">
-            <img src="./assets/images/about-banner.png" width="800" height="580" loading="lazy" alt="about banner"
-              class="w-100">
-          </figure>
+                <h2 class="h2 section-title">
+                  We Craft champions and grow our community.
+                </h2>
 
-          <div class="about-content">
+                <ul>
+                  <li class="about-item">
+                    <div class="accordion-card expanded" data-accordion>
+                      <h3 class="card-title">
+                        <button class="accordion-btn" data-accordion-btn>
+                          <ion-icon
+                            name="chevron-down-outline"
+                            aria-hidden="true"
+                            class="down"
+                          ></ion-icon>
 
-            <p class="section-subtitle" id="about-label">Why Choose Us?</p>
+                          <spna class="span h5">Expert Coaching</spna>
+                        </button>
+                      </h3>
 
-            <h2 class="h2 section-title">
-              We bring solutions to make life easier for our clients.
-            </h2>
+                      <p class="accordion-content">
+                        Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                        condimentum nibh, ut fermentum massa justo sit amet
+                        risus. Cras mattis consectetur purus sit amet fermentum.
+                        Praesent commodo cursus magna, vel.
+                      </p>
+                    </div>
+                  </li>
 
-            <ul>
+                  <li class="about-item">
+                    <div class="accordion-card" data-accordion>
+                      <h3 class="card-title">
+                        <button class="accordion-btn" data-accordion-btn>
+                          <ion-icon
+                            name="chevron-down-outline"
+                            aria-hidden="true"
+                            class="down"
+                          ></ion-icon>
 
-              <li class="about-item">
-                <div class="accordion-card expanded" data-accordion>
+                          <spna class="span h5"
+                            >State-of-the-Art Facilities</spna
+                          >
+                        </button>
+                      </h3>
 
-                  <h3 class="card-title">
-                    <button class="accordion-btn" data-accordion-btn>
-                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                      <p class="accordion-content">
+                        Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                        condimentum nibh, ut fermentum massa justo sit amet
+                        risus. Cras mattis consectetur purus sit amet fermentum.
+                        Praesent commodo cursus magna, vel.
+                      </p>
+                    </div>
+                  </li>
 
-                      <spna class="span h5">Professional Design</spna>
-                    </button>
-                  </h3>
+                  <li class="about-item">
+                    <div class="accordion-card" data-accordion>
+                      <h3 class="card-title">
+                        <button class="accordion-btn" data-accordion-btn>
+                          <ion-icon
+                            name="chevron-down-outline"
+                            aria-hidden="true"
+                            class="down"
+                          ></ion-icon>
 
-                  <p class="accordion-content">
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
-                    vel.
-                  </p>
+                          <spna class="span h5">Proven Track Record</spna>
+                        </button>
+                      </h3>
 
-                </div>
-              </li>
-
-              <li class="about-item">
-                <div class="accordion-card" data-accordion>
-
-                  <h3 class="card-title">
-                    <button class="accordion-btn" data-accordion-btn>
-                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
-
-                      <spna class="span h5">Top-Notch Support</spna>
-                    </button>
-                  </h3>
-
-                  <p class="accordion-content">
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
-                    vel.
-                  </p>
-
-                </div>
-              </li>
-
-              <li class="about-item">
-                <div class="accordion-card" data-accordion>
-
-                  <h3 class="card-title">
-                    <button class="accordion-btn" data-accordion-btn>
-                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
-
-                      <spna class="span h5">Exclusive Assets</spna>
-                    </button>
-                  </h3>
-
-                  <p class="accordion-content">
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
-                    vel.
-                  </p>
-
-                </div>
-              </li>
-
-            </ul>
-
-          </div>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
+                      <p class="accordion-content">
+                        Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                        condimentum nibh, ut fermentum massa justo sit amet
+                        risus. Cras mattis consectetur purus sit amet fermentum.
+                        Praesent commodo cursus magna, vel.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </section>
+        <!-- 
         - #FEATURE
       -->
+        <section
+          class="section service fade-in"
+          aria-labelledby="service-label"
+        >
+          <section class="section feature" aria-labelledby="feature-label">
+            <div class="container">
+              <figure class="feature-banner">
+                <img
+                  src="./assets/images/playing2.svg"
+                  width="800"
+                  height="531"
+                  loading="lazy"
+                  alt="feature banner"
+                  class="w-100"
+                />
+              </figure>
 
-      <section class="section feature" aria-labelledby="feature-label">
-        <div class="container">
+              <div class="feature-content">
+                <p class="section-subtitle" id="feautre-label">What we do?</p>
 
-          <figure class="feature-banner">
-            <img src="./assets/images/feature-banner.png" width="800" height="531" loading="lazy" alt="feature banner"
-              class="w-100">
-          </figure>
+                <h2 class="h2 section-title">
+                  Elevating Players, Building Community
+                </h2>
 
-          <div class="feature-content">
+                <p class="section-text">
+                  Cum sociis natoque penatibus et magnis dis parturient montes,
+                  nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis
+                  in, egestas eget quam. Praesent commodo cursus.
+                </p>
 
-            <p class="section-subtitle" id="feautre-label">Our Solutions</p>
+                <ul class="feature-list">
+                  <li>
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <ion-icon
+                          name="checkmark"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </div>
 
-            <h2 class="h2 section-title">
-              We make your spending stress-free for you to have the perfect control.
-            </h2>
+                      <span class="span">
+                        Aenean quam ornare. Curabitur blandit.
+                      </span>
+                    </div>
+                  </li>
 
-            <p class="section-text">
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio,
-              dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus.
-            </p>
+                  <li>
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <ion-icon
+                          name="checkmark"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </div>
 
-            <ul class="feature-list">
+                      <span class="span">
+                        Nullam quis risus eget urna mollis ornare.
+                      </span>
+                    </div>
+                  </li>
 
-              <li>
-                <div class="feature-card">
+                  <li>
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <ion-icon
+                          name="checkmark"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </div>
 
-                  <div class="card-icon">
-                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                  </div>
+                      <span class="span">
+                        Etiam porta euismod malesuada mollis.
+                      </span>
+                    </div>
+                  </li>
 
-                  <span class="span">
-                    Aenean quam ornare. Curabitur blandit.
-                  </span>
+                  <li>
+                    <div class="feature-card">
+                      <div class="card-icon">
+                        <ion-icon
+                          name="checkmark"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </div>
 
-                </div>
-              </li>
-
-              <li>
-                <div class="feature-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                  </div>
-
-                  <span class="span">
-                    Nullam quis risus eget urna mollis ornare.
-                  </span>
-
-                </div>
-              </li>
-
-              <li>
-                <div class="feature-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                  </div>
-
-                  <span class="span">
-                    Etiam porta euismod malesuada mollis.
-                  </span>
-
-                </div>
-              </li>
-
-              <li>
-                <div class="feature-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                  </div>
-
-                  <span class="span">
-                    Vivamus sagittis lacus vel augue rutrum.
-                  </span>
-
-                </div>
-              </li>
-
-            </ul>
-
-          </div>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
+                      <span class="span">
+                        Vivamus sagittis lacus vel augue rutrum.
+                      </span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </section>
+        <!-- 
         - #STATS
       -->
-
-      <section class="stats" aria-label="our stats">
-        <div class="container">
-
-          <ul class="stats-card has-bg-image" style="background-image: url('./assets/images/stats-bg.jpg')">
-
-            <li>
-              <p class="card-text">
-                <span class="h1">7518</span>
-
-                <spna class="span">Completed Projects</spna>
-              </p>
-            </li>
-
-            <li>
-              <p class="card-text">
-                <span class="h1">3472</span>
-
-                <spna class="span">Happy Customers</spna>
-              </p>
-            </li>
-
-            <li>
-              <p class="card-text">
-                <span class="h1">2184</span>
-
-                <spna class="span">Expert Employees</spna>
-              </p>
-            </li>
-
-            <li>
-              <p class="card-text">
-                <span class="h1">4523</span>
-
-                <spna class="span">Awards Won</spna>
-              </p>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
+        <section class="stats" aria-label="our stats">
+          <div class="container">
+            <ul
+              class="stats-card has-bg-image"
+              style="background-image: url('./assets/images/stats-bg.jpg')"
+            >
+              <li>
+                <p class="card-text">
+                  <span class="h1 run-number" data-target="5">0</span>
+                  <span class="span">Years of Excellence</span>
+                </p>
+              </li>
+              <li>
+                <p class="card-text">
+                  <span class="h1 run-number" data-target="20">0</span>
+                  <span class="span">Satisfied Athletes</span>
+                </p>
+              </li>
+              <li>
+                <p class="card-text">
+                  <span class="h1 run-number" data-target="4">0</span>
+                  <span class="span">Dedicated Coaches</span>
+                </p>
+              </li>
+              <li>
+                <p class="card-text">
+                  <span class="h1 run-number" data-target="100">0</span>
+                  <span class="span">Awards Won</span>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- 
         - #PROJECT
       -->
+        <section
+          class="section service fade-in"
+          aria-labelledby="service-label"
+        >
+          <section class="section project" aria-labelledby="project-label">
+            <div class="container">
+              <p class="section-subtitle" id="project-label">LATEST UPDATES</p>
 
-      <section class="section project" aria-labelledby="project-label">
-        <div class="container">
+              <h2 class="h2 section-title">
+                Stay in the Loop with BSTTA and Coastal Fortress Academy News
+              </h2>
 
-          <p class="section-subtitle" id="project-label">Case Studies</p>
+              <ul class="grid-list">
+                <li>
+                  <div class="project-card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 560; --height: 350"
+                    >
+                      <img
+                        src="./assets/images/table-tennis-news.jpg"
+                        width="560"
+                        height="350"
+                        loading="lazy"
+                        alt="Ligula tristique quis risus"
+                        class="img-cover"
+                      />
+                    </figure>
 
-          <h2 class="h2 section-title">
-            Check out some of our awesome projects with creative ideas and great design.
-          </h2>
+                    <div class="card-content">
+                      <h3 class="h3">
+                        <a href="#" class="card-title"
+                          >Ligula tristique quis risus</a
+                        >
+                      </h3>
 
-          <ul class="grid-list">
+                      <p class="card-text">
+                        Mauris convallis non ligula non interdum. Gravida
+                        vulputate convallis tempus vestibulum cras imperdiet nun
+                        eu dolor.
+                      </p>
 
-            <li>
-              <div class="project-card">
+                      <ul class="card-meta-list">
+                        <li class="card-meta-item">
+                          <ion-icon
+                            name="calendar-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
 
-                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
-                  <img src="./assets/images/blog-1.jpg" width="560" height="350" loading="lazy"
-                    alt="Ligula tristique quis risus" class="img-cover">
-                </figure>
+                          <time class="meta-text" datetime="2022-04-14"
+                            >14 Apr 2023</time
+                          >
+                        </li>
 
-                <div class="card-content">
+                        <li class="card-meta-item">
+                          <ion-icon
+                            name="document-text-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
 
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Ligula tristique quis risus</a>
-                  </h3>
+                          <span class="meta-text">Coaching</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
 
-                  <p class="card-text">
-                    Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras
-                    imperdiet nun eu dolor.
-                  </p>
+                <li>
+                  <div class="project-card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 560; --height: 350"
+                    >
+                      <img
+                        src="./assets/images/tennis2.jpg"
+                        width="560"
+                        height="350"
+                        loading="lazy"
+                        alt="Nullam id dolor elit id nibh"
+                        class="img-cover"
+                      />
+                    </figure>
 
-                  <ul class="card-meta-list">
+                    <div class="card-content">
+                      <h3 class="h3">
+                        <a href="#" class="card-title"
+                          >Nullam id dolor elit id nibh</a
+                        >
+                      </h3>
 
-                    <li class="card-meta-item">
-                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                      <p class="card-text">
+                        Mauris convallis non ligula non interdum. Gravida
+                        vulputate convallis tempus vestibulum cras imperdiet nun
+                        eu dolor.
+                      </p>
 
-                      <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
-                    </li>
+                      <ul class="card-meta-list">
+                        <li class="card-meta-item">
+                          <ion-icon
+                            name="calendar-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
 
-                    <li class="card-meta-item">
-                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                          <time class="meta-text" datetime="2022-03-29"
+                            >29 Mar 2023</time
+                          >
+                        </li>
 
-                      <span class="meta-text">Coding</span>
-                    </li>
+                        <li class="card-meta-item">
+                          <ion-icon
+                            name="document-text-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
 
-                  </ul>
+                          <span class="meta-text">Tennis</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
 
-                </div>
+                <li>
+                  <div class="project-card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 560; --height: 350"
+                    >
+                      <img
+                        src="./assets/images/table-tennis-man.jpg"
+                        width="560"
+                        height="350"
+                        loading="lazy"
+                        alt="Ultricies fusce porta elit"
+                        class="img-cover"
+                      />
+                    </figure>
 
-              </div>
-            </li>
+                    <div class="card-content">
+                      <h3 class="h3">
+                        <a href="#" class="card-title"
+                          >Ultricies fusce porta elit</a
+                        >
+                      </h3>
 
-            <li>
-              <div class="project-card">
+                      <p class="card-text">
+                        Mauris convallis non ligula non interdum. Gravida
+                        vulputate convallis tempus vestibulum cras imperdiet nun
+                        eu dolor.
+                      </p>
 
-                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
-                  <img src="./assets/images/blog-2.jpg" width="560" height="350" loading="lazy"
-                    alt="Nullam id dolor elit id nibh" class="img-cover">
-                </figure>
+                      <ul class="card-meta-list">
+                        <li class="card-meta-item">
+                          <ion-icon
+                            name="calendar-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
 
-                <div class="card-content">
+                          <time class="meta-text" datetime="2022-02-26"
+                            >26 Feb 2023</time
+                          >
+                        </li>
 
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Nullam id dolor elit id nibh</a>
-                  </h3>
+                        <li class="card-meta-item">
+                          <ion-icon
+                            name="document-text-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
 
-                  <p class="card-text">
-                    Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras
-                    imperdiet nun eu dolor.
-                  </p>
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
-
-                      <time class="meta-text" datetime="2022-03-29">29 Mar 2022</time>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="meta-text">Workspace</span>
-                    </li>
-
-                  </ul>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
-                  <img src="./assets/images/blog-3.jpg" width="560" height="350" loading="lazy"
-                    alt="Ultricies fusce porta elit" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Ultricies fusce porta elit</a>
-                  </h3>
-
-                  <p class="card-text">
-                    Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras
-                    imperdiet nun eu dolor.
-                  </p>
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
-
-                      <time class="meta-text" datetime="2022-02-26">26 Feb 2022</time>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="meta-text">Meeting</span>
-                    </li>
-
-                  </ul>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
+                          <span class="meta-text">Tennis</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <!-- 
         - #CTA
       -->
 
-      <section class="cta" aria-label="call to action">
-        <div class="container">
+        <section class="cta" aria-label="call to action">
+          <div class="container">
+            <h2 class="h2 section-title">Join our Table Tennis Community</h2>
 
-          <h2 class="h2 section-title">
-            Join our community by using our services and grow your business.
-          </h2>
+            <a href="#" class="btn btn-primary">Join Now</a>
+          </div>
+        </section>
+      </article>
+    </main>
 
-          <a href="#" class="btn btn-primary">Try it For Free</a>
-
-        </div>
-      </section>
-
-    </article>
-  </main>
-
-
-
-
-
-  <!-- 
+    <!-- 
     - #FOOTER
   -->
 
-  <footer class="footer">
-    <div class="container grid-list">
+    <footer class="footer">
+      <div class="container grid-list">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <h1 style="color: white">LOGO</h1>
+            <!-- <img
+              src="./assets/images/logo-light.svg"
+              width="74"
+              height="24"
+              alt="Adex home"
+            /> -->
+          </a>
 
-      <div class="footer-brand">
+          <p class="footer-text">
+            &copy; 2023 Obua Stella. <br />
+            All rights reserved.
+          </p>
 
-        <a href="#" class="logo">
-          <img src="./assets/images/logo-light.svg" width="74" height="24" alt="Adex home">
-        </a>
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
 
-        <p class="footer-text">
-          &copy; 2022 codewithsadee. <br> All rights reserved.
-        </p>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
 
-        <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-dribbble"></ion-icon>
+              </a>
+            </li>
 
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="footer-list">
           <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
+            <p class="h4 footer-list-title">Get in Touch</p>
           </li>
 
           <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
+            <address class="footer-text">
+              Moonshine St. 14/05 Lekki, Lagos, Nigeria
+            </address>
           </li>
 
           <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-dribbble"></ion-icon>
-            </a>
+            <a href="mailto:info@email.com" class="footer-link"
+              >email@email.com</a
+            >
           </li>
 
           <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
+            <a href="tel:001234567890" class="footer-link"
+              >+234 0000 0000 000</a
+            >
           </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-youtube"></ion-icon>
-            </a>
-          </li>
-
         </ul>
 
+        <ul class="footer-list">
+          <li>
+            <p class="h4 footer-list-title">Learn More</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our Story</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms of Use</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+        </ul>
+
+        <div class="footer-list">
+          <p class="h4 footer-list-title">Our Newsletter</p>
+
+          <p class="footer-text">
+            Subscribe to our newsletter to get our news & deals delivered to
+            you.
+          </p>
+
+          <form action="" class="input-wrapper">
+            <input
+              type="email"
+              name="email_address"
+              placeholder="Email Address"
+              required
+              class="input-field"
+            />
+
+            <button type="submit" class="submit-btn">Join</button>
+          </form>
+        </div>
       </div>
+    </footer>
 
-      <ul class="footer-list">
-
-        <li>
-          <p class="h4 footer-list-title">Get in Touch</p>
-        </li>
-
-        <li>
-          <address class="footer-text">
-            Moonshine St. 14/05 Light City, London, United Kingdom
-          </address>
-        </li>
-
-        <li>
-          <a href="mailto:info@email.com" class="footer-link">info@email.com</a>
-        </li>
-
-        <li>
-          <a href="tel:001234567890" class="footer-link">00 (123) 456 78 90</a>
-        </li>
-
-      </ul>
-
-      <ul class="footer-list">
-
-        <li>
-          <p class="h4 footer-list-title">Learn More</p>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">About Us</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Our Story</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Projects</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Terms of Use</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Privacy Policy</a>
-        </li>
-
-      </ul>
-
-      <div class="footer-list">
-
-        <p class="h4 footer-list-title">Our Newsletter</p>
-
-        <p class="footer-text">
-          Subscribe to our newsletter to get our news & deals delivered to you.
-        </p>
-
-        <form action="" class="input-wrapper">
-          <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
-
-          <button type="submit" class="submit-btn">Join</button>
-        </form>
-
-      </div>
-
-    </div>
-  </footer>
-
-
-
-
-
-  <!-- 
+    <!-- 
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 
-  <!-- 
+    <!-- 
     - ionicon
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
+
+<!-- Animation -->
+<script>
+  // Function to add 'visible' class when the section is in the viewport
+  function handleIntersection(entries, observer) {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+        observer.unobserve(entry.target);
+      }
+    });
+  }
+
+  // Set up the Intersection Observer for fade-in
+  const fadeOptions = {
+    threshold: 0.5, // Adjust the threshold as needed
+  };
+
+  const fadeObserver = new IntersectionObserver(
+    handleIntersection,
+    fadeOptions
+  );
+
+  // Target the elements with the 'fade-in' class
+  const fadeElements = document.querySelectorAll(".fade-in");
+
+  // Observe each target element for fade-in
+  fadeElements.forEach((element) => {
+    fadeObserver.observe(element);
+  });
+
+  // Function to handle number animation
+  function handleNumberAnimation(entries, observer) {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const targetNumber = entry.target.getAttribute("data-target");
+        runNumberAnimation(entry.target, targetNumber);
+        observer.unobserve(entry.target);
+      }
+    });
+  }
+
+  // Set up the Intersection Observer for number animation
+  const numberOptions = {
+    threshold: 0.5,
+  };
+
+  const numberObserver = new IntersectionObserver(
+    handleNumberAnimation,
+    numberOptions
+  );
+
+  // Target the elements with the 'run-number' class
+  const numberElements = document.querySelectorAll(".run-number");
+
+  // Observe each target element for number animation
+  numberElements.forEach((element) => {
+    numberObserver.observe(element);
+  });
+
+  // Function to run number animation
+  function runNumberAnimation(targetElement, targetNumber) {
+    let currentNumber = 0;
+    const duration = 2000; // Adjust the duration as needed
+    const interval = duration / targetNumber; // Calculate interval dynamically
+    const numberInterval = setInterval(() => {
+      currentNumber += 1;
+      targetElement.textContent = currentNumber;
+
+      if (currentNumber === parseInt(targetNumber)) {
+        targetElement.textContent = `${targetNumber}+`;
+        clearInterval(numberInterval);
+      }
+    }, interval);
+  }
+</script>
